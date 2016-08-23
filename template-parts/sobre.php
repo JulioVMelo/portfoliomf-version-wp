@@ -1,8 +1,11 @@
 <section class="sobre">
 	<div class="content">
 		<a id="sobre"></a>
-		<h2>Sobre</h2>
+		<?php
+			$my_page = get_page_by_title( 'sobre' );
+		?>
+		<h2><?php echo $my_page->post_title ?></h2>
 		<i class="fa fa-graduation-cap"></i>
-		<p>Desenvolvedor Web, paraibano, atualmente resido em João Pessoa, tenho 22 anos, sou formado em análise e desenvolvimento de sistemas, e pós graduando em desenvolvimento de web pela UNIPÊ-JP, estou sempre atento as melhores práticas de desenvolvimentondo meus conhecimentos, apaixonado por tecnologia e empreendedorismo, para mimo além de trabalho é um hobby.</p>
+		<p><?php  echo $my_page->post_content ?></p>
 	</div>
 </section>

@@ -189,30 +189,34 @@ header .btn-mobile{
   padding-bottom: 50px;
 }
 .skills .content{
-  width: 93%;
+  width: 80%;
 }
 .skills img{
   width: 60px;
   height: auto;
-
 }
 .skills h2{
   text-align: center;
   font-size: 2em;
-  padding-top: 20px;
-  margin-bottom: 20px;
+  padding-top: 50px;
+  margin-bottom: 50px;
 }
+
 .skills ul{
   width: 100%;
   padding-bottom: 20px;
-  padding-left: 10%;
-
 }
+
 .skills ul li{
   float: left;
-  width: 30%;
+  width: 50%;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 20px;
+}
+.skills ul li p{
+  font-style: italic;
+  font-size: 0.8em;
 
 }
 /*----- Fim Skills -----*/
@@ -422,6 +426,17 @@ header .btn-mobile{
   }
   .apresentacao h2{
     padding-top:120px;
+  }
+  .skills ul li{
+    float: left;
+    width: 25%;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .skills ul li p{
+    font-style: italic;
+    font-size: 1em;
   }
 
 }
